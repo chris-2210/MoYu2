@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">MoYu</string>
+    <string name="welcome">Bienvenido\na</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Acerca De</string>
+
+    <string name="my_routes">Mis Rutas</string>
+    <string name="my_profile">Perfil</string>
+    <string name="close_session">Cerrar Sesión</string>
+    <string name="my_money">Mi Dinero</string>
+    <string name="share">Compartir</string>
+
+    <string name="new_route">Nueva Ruta</string>
+    <string name="my_vehicle">Mi Vehiculo</string>
+
+    <string name="user">Usuario</string>
+    <string name="title_activity_make_route">Mapa</string>
+    <string name="mapInit">Marca un punto de Inicio de la ruta</string>
+    <string name="mapEnd">Marca un punto de Fin de la ruta</string>
+    <string name="init_end">Selecciona un punto de inicio y uno de llegada</string>
+    <string name="put_points">Marca los puntos de espera que necesites</string>
+
+    <string name="header_user">Datos Generales</string>
+    <string name="header_vehicle">Datos del Vehículo</string>
+    <string name="header_pay">Datos de Pago</string>
+    <string name="next">Siguiente</string>
+    <string name="finish">Terminar</string>
+
+    <!--Formularios-->
+    <string name="nombre">Nombre(s)</string>
+    <string name="app">Apellido Paterno</string>
+    <string name="apm">Apellido Materno</string>
+    <string name="edad">Edad</string>
+    <string name="sexo">Sexo</string>
+    <string name="sexH">Hombre</string>
+    <string name="sexM">Mujer</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="marca">Marca</string>
+    <string name="modelo">Modelo</string>
+    <string name="color">Color</string>
+    <string name="nAcientos">Num. de Acientos</string>
+    <string name="nSeguro">Num. de Seguro</string>
+    <string name="paypal">Cuenta PayPal</string>
+    <string name="disponible">¿Estas disponible en este momento?</string>
+
+    <string name="map_init">Punto de Partida</string>
+    <string name="map_end">Punto de Llegada</string>
+    <string name="map_paradas">Paradas en la Ruta</string>
+    <string name="register">Registro de nuevo Usuario</string>
+
+    <string name="about">Aplicación desarrollada por SmarTec\nTodos los derechos reservados\n2019</string>
+    <string name="title_activity_login">Iniciar Sesión</string>
+
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Iniciar Sesión o Registrarse</string>
+    <string name="action_sign_in_short">Iniciar Sesión</string>
+    <string name="invalid_username">No es un nombre usuario válido</string>
+    <string name="invalid_password">La contraseña debe de contener más de 5 carácteres</string>
+    <string name="login_failed">"Inicio de Sesión Fallido"</string>
+    <string name="not_register">¿Aún no estas registrado? Registrate Aquí</string>
+    <string name="login_facebook">Iniciar Sesión con Facebook</string>
+    <string name="login_google">Iniciar Sesión con Google</string>
+    <string name="sign_in">Iniciar Sesión</string>
+
+    <string name="mis_datos">Mis Datos</string>
+    <string name="mi_vehiculo">Mi Vehículo</string>
+    <string name="mis_pagos">Mis Pagos</string>
+    <string name="mis_rutas">Mis Rutas</string>
+    <string name="update">Actualizar Datos</string>
+    <string name="delete">Eliminar Ruta</string>
+    <string name="title_activity_show_map">Map</string>
+    <string name="matricula">Matrícula del Vehículo</string>
+</resources>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456452178791",
+    "firebase_url": "https://moyu-smartec.firebaseio.com",
+    "project_id": "moyu-smartec",
+    "storage_bucket": "moyu-smartec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456452178791:android:02edc0ccc02836f7",
+        "android_client_info": {
+          "package_name": "com.smartec.moyu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456452178791-fjbb884vtq20hkfo47gi44jgkn59l1d6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.smartec.moyu",
+            "certificate_hash": "896339cc77101116eda82d753a5500888413f420"
+          }
+        },
+        {
+          "client_id": "456452178791-v6dqnaj0a69uujj1orgllep0ei7fpuep.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtTfSRczQ1v8LL0nNtFADQcwzO-B0t3sc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456452178791-v6dqnaj0a69uujj1orgllep0ei7fpuep.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

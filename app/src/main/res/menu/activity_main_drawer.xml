@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/routes"
+            android:icon="@drawable/routes"
+            android:title="@string/my_routes" />
+        <item
+            android:id="@+id/my_profile"
+            android:icon="@drawable/moyu_logo"
+            android:title="@string/my_profile" />
+        <item
+            android:id="@+id/my_money"
+            android:icon="@drawable/money"
+            android:title="@string/my_money" />
+        <item
+            android:id="@+id/my_vehicle"
+            android:icon="@drawable/my_vehicle"
+            android:title="@string/my_vehicle" />
+        <item
+            android:id="@+id/close_session"
+            android:icon="@android:drawable/ic_menu_delete"
+            android:title="@string/close_session" />
+    </group>
+</menu>

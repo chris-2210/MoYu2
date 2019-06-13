@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.RegistroGenerales">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/encabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD600"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="15sp"
+            android:text="@string/header_user"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80sp" />
+
+        <EditText
+            android:id="@+id/nombre"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/app"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/app"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/apm"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/apm"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <LinearLayout
+            android:id="@+id/edad_sexo"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:autofillHints="no"
+                android:ems="15"
+                android:hint="@string/edad"
+                android:inputType="number" />
+
+            <Space
+                android:layout_width="40sp"
+                android:layout_height="20sp" />
+
+            <RadioGroup
+                android:id="@+id/sexo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/hombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sexH" />
+
+                <RadioButton
+                    android:id="@+id/mujer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sexM" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="100sp" />
+        <Button
+            android:id="@+id/nextGenerales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFD600"
+            android:gravity="center"
+            android:paddingHorizontal="30dp"
+            android:text="@string/next"
+            android:textColor="#000000"
+            android:onClick="onClick"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/contenedor_vehiculo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register.RegistroVehiculo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/encabezado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD600"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="15sp"
+            android:text="@string/header_vehicle"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80sp" />
+
+        <EditText
+            android:id="@+id/marca"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/marca"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/modelo"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/modelo"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/color"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/color"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/nAcientos"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/nAcientos"
+            android:inputType="number" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/nSeguro"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/nSeguro"
+            android:inputType="text" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+        <EditText
+            android:id="@+id/matricula"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/matricula"
+            android:inputType="text"
+            android:maxLength="6"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80sp" />
+        <Button
+            android:id="@+id/nextVehiculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFD600"
+            android:gravity="center"
+            android:paddingHorizontal="30dp"
+            android:text="@string/next"
+            android:textColor="#000000"
+            android:onClick="onClick"/>
+    </LinearLayout>
+
+</FrameLayout>

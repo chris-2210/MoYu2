@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.MiPerfil">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_encabezado_generales"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD600"
+            android:fontFamily="sans-serif-smallcaps"
+            android:gravity="center"
+            android:padding="15sp"
+            android:text="@string/header_user"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="80sp" />
+
+        <EditText
+            android:id="@+id/main_nombre"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/nombre"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/main_app"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/app"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/main_apm"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="@string/apm"
+            android:inputType="textPersonName" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <LinearLayout
+            android:id="@+id/main_edad_sexo"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/main_edad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:autofillHints="no"
+                android:ems="15"
+                android:hint="@string/edad"
+                android:inputType="number" />
+
+            <Space
+                android:layout_width="40sp"
+                android:layout_height="20sp" />
+
+            <RadioGroup
+                android:id="@+id/main_sexo"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/main_hombre"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sexH" />
+
+                <RadioButton
+                    android:id="@+id/main_mujer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/sexM" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/main_password"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/password"
+            android:inputType="textPassword" />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="20sp" />
+
+        <EditText
+            android:id="@+id/main_paypal"
+            android:layout_width="380sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autofillHints="no"
+            android:ems="10"
+            android:hint="@string/paypal"
+            android:inputType="textPassword" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/disponible"
+            android:layout_gravity="center"
+            android:layout_marginTop="30sp"/>
+        <Switch
+            android:layout_width="200sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:id="@+id/disponible"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30sp" />
+        <Button
+            android:id="@+id/update_generales"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="#FFD600"
+            android:gravity="center"
+            android:paddingHorizontal="30dp"
+            android:text="@string/update"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</FrameLayout>
